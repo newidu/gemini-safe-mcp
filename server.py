@@ -13,7 +13,7 @@ from mcp.server.fastmcp import FastMCP
 
 WORKSPACE = Path(os.environ.get("MCP_WORKSPACE", "/home/ubuntu/gemini-workspace")).resolve()
 MCP_HOST = os.environ.get("MCP_HOST", "127.0.0.1")
-MCP_PORT = int(os.environ.get("MCP_PORT", "8000"))
+MCP_PORT = int(os.environ.get("MCP_PORT", "8080"))
 MAX_READ_BYTES = 200_000
 MAX_WRITE_BYTES = 200_000
 
