@@ -7,7 +7,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # server එක සහ අනෙකුත් අත්‍යවශ්‍ය files කොපි කිරීම
-COPY server.py README_SI.md ./
+COPY server.py ./
 RUN mkdir -p /data/workspace
 
 # Environment variables
